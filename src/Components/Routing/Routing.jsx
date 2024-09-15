@@ -3,8 +3,8 @@ import { Route, Routes } from "react-router-dom";
 // import CoinDetailsPage from "../../Pages/CoinDetailsPage";
 import { lazy, Suspense } from "react";
 import MainLayout from "../../Pages/Layout";
-// import PageLoader from "../PageLoader/PageLoader";
-import PageLoader from "../../components/PageLoader";
+import PageLoader from "../PageLoader/PageLoader";
+// import PageLoader from "../../components/PageLoader/PageLoader";
 import CustomErrorBoundaryUI from "../CustomErrorBoundary/CustomErrorBoundary";
 
 const Home = lazy(() =>import ('../../Pages/Home'));
