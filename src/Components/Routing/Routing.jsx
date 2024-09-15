@@ -4,7 +4,7 @@ import { Route, Routes } from "react-router-dom";
 import { lazy, Suspense } from "react";
 import MainLayout from "../../Pages/Layout";
 // import PageLoader from "../PageLoader/PageLoader";
-import PageLoader from "../../components/PageLoader/PageLoader";
+import PageLoader from "../../components/PageLoader";
 import CustomErrorBoundaryUI from "../CustomErrorBoundary/CustomErrorBoundary";
 
 const Home = lazy(() =>import ('../../Pages/Home'));
